@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5da1aa;
+    padding: 20px 40px;
+
+    form {
+        input {
+            border: none;
+            border-bottom: 2px solid white;
+            color: white;
+            font-size: 18px;
+            padding: 5px 5px 0 5px;
+            background-color: transparent;
+            width: 300px;
+
+            &:focus {
+                outline: none;
+
+            }
+        }
+        
+    }
+}
